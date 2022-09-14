@@ -1,0 +1,21 @@
+// 
+//  Robust Video Matting
+//  Copyright (c) 2022 NatML Inc. All Rights Reserved.
+//
+
+#pragma kernel CSMain
+
+StructuredBuffer<float> Matte;
+RWTexture2D<float4> Result;
+
+[numthreads(16, 16, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID) {
+    // Check
+    uint width, height;
+    Result.GetDimensions(width, height);
+    if (id.x * id.y >= width * height)
+        return;
+    // Blit
+    float a = Matte[id.x + width * (height - id.y - 1)];
+    Result[id.xy] = float4(a, a, a, 1.0);
+}

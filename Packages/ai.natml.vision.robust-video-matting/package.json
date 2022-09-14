@@ -1,0 +1,26 @@
+{
+    "name": "ai.natml.vision.robust-video-matting",
+    "version": "1.0.0",
+    "displayName": "Robust Video Matting",
+    "description": "Robust Video Matting for high-fidelity human segmentation in Unity Engine.",
+    "unity": "2021.2",
+    "dependencies": {
+        "ai.natml.natml": "1.0.18"
+    },
+    "keywords": [
+        "natml",
+        "machine learning",
+        "ml",
+        "aritificial intelligence",
+        "segmentation",
+        "selfie segmentation",
+        "tiktok"
+    ],
+    "author": {
+        "name": "NatML",
+        "email": "hi@natml.ai",
+        "url": "https://github.com/natmlx"
+    },
+    "license": "Apache-2.0",
+    "repository": "github:natml-hub/Robust-Video-Matting"
+}
