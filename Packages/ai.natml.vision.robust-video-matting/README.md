@@ -1,6 +1,23 @@
 # Robust Video Matting
 [Robust Video Matting](https://peterl1n.github.io/RobustVideoMatting/) for human segmentation.
 
+## Installing Robust Video Matting
+Add the following items to your Unity project's `Packages/manifest.json`:
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "NatML",
+      "url": "https://registry.npmjs.com",
+      "scopes": ["ai.natml"]
+    }
+  ],
+  "dependencies": {
+    "ai.natml.vision.robust-video-matting": "1.0.0"
+  }
+}
+```
+
 ## Predicting the Matte
 First, create the Robust Video Matting predictor:
 ```csharp
