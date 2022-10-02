@@ -658,6 +658,9 @@
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="NatML.ML">
+        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.ML.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
         <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
@@ -687,6 +690,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
         <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="NatML.Devices">
+        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Devices.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
@@ -721,14 +727,26 @@
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
+    <Reference Include="NatML.Hub.Editor">
+        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Hub.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="NatML.ML.Editor">
+        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.ML.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="NatML.Hub">
+        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Hub.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
         <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="NatML.Devices.Editor">
+        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Devices.Editor.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Vision.RobustVideoMatting">
         <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Vision.RobustVideoMatting.dll</HintPath>
@@ -738,24 +756,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="NatML.ML.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.ML.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="NatML.ML">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.ML.dll</HintPath>
-    </Reference>
-    <Reference Include="NatML.Hub.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Hub.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="NatML.Hub">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Hub.dll</HintPath>
-    </Reference>
-    <Reference Include="NatML.Devices">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Devices.dll</HintPath>
-    </Reference>
-    <Reference Include="NatML.Devices.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Devices.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
