@@ -1,6 +1,6 @@
 {
     "name": "ai.natml.vision.robust-video-matting",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Robust Video Matting",
     "description": "Robust Video Matting for high-fidelity human segmentation in Unity Engine.",
     "unity": "2021.2",
@@ -21,6 +21,6 @@
         "email": "hi@natml.ai",
         "url": "https://github.com/natmlx"
     },
-    "license": "Apache-2.0",
+    "license": "GPL-3.0-only",
     "repository": "github:natml-hub/Robust-Video-Matting"
 }
