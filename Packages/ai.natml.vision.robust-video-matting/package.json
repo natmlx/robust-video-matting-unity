@@ -5,7 +5,7 @@
     "description": "Robust Video Matting for high-fidelity human segmentation in Unity Engine.",
     "unity": "2021.2",
     "dependencies": {
-        "ai.natml.natml": "1.0.18"
+        "ai.natml.natml": "1.0.19"
     },
     "keywords": [
         "natml",

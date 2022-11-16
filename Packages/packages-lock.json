@@ -1,27 +1,57 @@
 {
   "dependencies": {
     "ai.natml.hub": {
-      "version": "1.0.12",
-      "depth": 1,
+      "version": "1.0.15",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://registry.npmjs.com"
     },
+    "ai.natml.natcorder": {
+      "version": "1.9.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "ai.natml.hub": "1.0.15"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "ai.natml.natdevice": {
-      "version": "1.2.4",
-      "depth": 0,
+      "version": "1.3.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "ai.natml.hub": "1.0.15"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "ai.natml.natml": {
+      "version": "1.0.19",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "ai.natml.hub": "1.0.12"
       },
       "url": "https://registry.npmjs.com"
     },
-    "ai.natml.natml": {
-      "version": "1.0.18",
+    "ai.natml.natshare": {
+      "version": "1.3.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "ai.natml.hub": "1.0.12"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "ai.natml.videokit": {
+      "version": "0.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "ai.natml.natcorder": "1.9.1",
+        "ai.natml.natdevice": "1.3.1",
+        "ai.natml.natml": "1.0.19",
+        "ai.natml.natshare": "1.3.0"
       },
       "url": "https://registry.npmjs.com"
     },
@@ -30,7 +60,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "ai.natml.natml": "1.0.18"
+        "ai.natml.natml": "1.0.19"
       }
     },
     "com.unity.collab-proxy": {
