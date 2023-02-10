@@ -5,7 +5,7 @@
 Robust video matting for human segmentation.
 
 ## Running the Sample
-Retrieve your access key from [NatML Hub](https://hub.natml.ai/profile) and add it to your Project Settings. Note that running the sample code requires an active [NatML MatteKit](https://www.natml.ai/pricing) subscription:
+Retrieve your access key from [NatML Hub](https://hub.natml.ai/profile) and add it to your Project Settings:
 
 ![project settings](https://github.com/natmlx/NatDevice/raw/main/.media/key.png)
 
@@ -25,7 +25,7 @@ Retrieve your access key from [NatML Hub](https://hub.natml.ai/profile) and add 
     - Firefox 90+
 
 ## Resources
-- Join the [NatML community on Discord](https://hub.natml.ai/community).
+- Join the [NatML community on Discord](https://natml.ai/community).
 - See the [NatML documentation](https://docs.natml.ai/unity).
 - See the [VideoKit documentation](https://docs.natml.ai/videokit).
 - Check out [NatML on GitHub](https://github.com/natmlx).
