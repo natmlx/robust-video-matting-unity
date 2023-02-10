@@ -1,6 +1,6 @@
 // 
 //  Robust Video Matting
-//  Copyright (c) 2022 NatML Inc. All Rights Reserved.
+//  Copyright (c) 2023 NatML Inc. All Rights Reserved.
 //
 
 #pragma kernel CSMain

@@ -1,14 +1,14 @@
 {
   "dependencies": {
     "ai.natml.hub": {
-      "version": "1.0.15",
-      "depth": 2,
+      "version": "1.0.20",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://registry.npmjs.com"
     },
     "ai.natml.natcorder": {
-      "version": "1.9.1",
+      "version": "1.9.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -17,7 +17,7 @@
       "url": "https://registry.npmjs.com"
     },
     "ai.natml.natdevice": {
-      "version": "1.3.1",
+      "version": "1.3.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -26,11 +26,11 @@
       "url": "https://registry.npmjs.com"
     },
     "ai.natml.natml": {
-      "version": "1.0.19",
+      "version": "1.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "ai.natml.hub": "1.0.12"
+        "ai.natml.hub": "1.0.20"
       },
       "url": "https://registry.npmjs.com"
     },
@@ -44,13 +44,14 @@
       "url": "https://registry.npmjs.com"
     },
     "ai.natml.videokit": {
-      "version": "0.0.3",
+      "version": "0.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "ai.natml.natcorder": "1.9.1",
-        "ai.natml.natdevice": "1.3.1",
-        "ai.natml.natml": "1.0.19",
+        "ai.natml.hub": "1.0.20",
+        "ai.natml.natml": "1.1.0",
+        "ai.natml.natcorder": "1.9.3",
+        "ai.natml.natdevice": "1.3.2",
         "ai.natml.natshare": "1.3.0"
       },
       "url": "https://registry.npmjs.com"
@@ -60,11 +61,11 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "ai.natml.natml": "1.0.19"
+        "ai.natml.natml": "1.1.0"
       }
     },
     "com.unity.collab-proxy": {
-      "version": "1.15.17",
+      "version": "1.17.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -91,17 +92,17 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.15",
-        "com.unity.ide.rider": "3.0.14",
+        "com.unity.ide.visualstudio": "2.0.17",
+        "com.unity.ide.rider": "3.0.18",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.1.1",
         "com.unity.test-framework": "1.1.31",
-        "com.unity.testtools.codecoverage": "1.0.1"
+        "com.unity.testtools.codecoverage": "1.2.2"
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.14",
+      "version": "3.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -110,7 +111,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.15",
+      "version": "2.0.17",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -140,7 +141,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.4.0",
+      "version": "1.7.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -169,7 +170,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testtools.codecoverage": {
-      "version": "1.0.1",
+      "version": "1.2.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -209,7 +210,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.7.8",
+      "version": "1.8.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {

@@ -1,6 +1,6 @@
 /* 
 *   Robust Video Matting
-*   Copyright (c) 2022 NatML Inc. All Rights Reserved.
+*   Copyright © 2023 NatML Inc. All Rights Reserved.
 */
 
 namespace NatML.Vision {
@@ -20,8 +20,8 @@ namespace NatML.Vision {
         /// Create the Robust Video Matting predictor.
         /// </summary>
         /// <param name="model">Robust Video Matting ML model.</param>
-        public RobustVideoMattingPredictor (MLModel model) {
-            this.model = model as MLEdgeModel;
+        public RobustVideoMattingPredictor (MLEdgeModel model) {
+            this.model = model;
             var recurrentStateTypes = new [] {
                 new MLArrayType(new [] { 1, 16, 135, 240 }, typeof(float)),
                 new MLArrayType(new [] { 1, 20, 68, 120 }, typeof(float)),
@@ -50,8 +50,8 @@ namespace NatML.Vision {
             if (!MLImageType.FromType(input.type))
                 throw new ArgumentException(@"Robust Video Matting predictor expects an an array or image feature", nameof(inputs));
             // Predict
-            using var imageFeature = (input as IMLEdgeFeature).Create(model.inputs[0]);
-            var outputFeatures = model.Predict(imageFeature, recurrentState[0], recurrentState[1], recurrentState[2], recurrentState[3]);
+            using var inputFeature = (input as IMLEdgeFeature).Create(model.inputs[0]);
+            var outputFeatures = model.Predict(inputFeature, recurrentState[0], recurrentState[1], recurrentState[2], recurrentState[3]);
             // Update recurrent state
             for (var i = 0; i < recurrentState.Length; ++i) {
                 recurrentState[i].Dispose();

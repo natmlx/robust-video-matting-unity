@@ -1,11 +1,10 @@
 /* 
 *   Robust Video Matting
-*   Copyright (c) 2022 NatML Inc. All Rights Reserved.
+*   Copyright © 2023 NatML Inc. All Rights Reserved.
 */
 
 namespace NatML.Examples {
 
-    using System.Threading.Tasks;
     using UnityEngine;
     using UnityEngine.UI;
     using NatML.VideoKit;
@@ -20,19 +19,17 @@ namespace NatML.Examples {
         public RawImage rawImage;
         public AspectRatioFitter aspectFitter;
 
-        private MLModel model;
+        private MLEdgeModel model;
         private RobustVideoMattingPredictor predictor;
         private RenderTexture matteTexture;
 
         private async void Start () {
-            // Fetch the model data from Hub
-            var modelData = await MLModelData.FromHub("@natsuite/robust-video-matting");
             // Create the model
-            model = new MLEdgeModel(modelData);
+            model = await MLEdgeModel.Create("@natsuite/robust-video-matting");
             // Create the RVM predictor
             predictor = new RobustVideoMattingPredictor(model);
             // Listen for camera frames
-            cameraManager.OnFrame.AddListener(OnCameraFrame);
+            cameraManager.OnCameraFrame.AddListener(OnCameraFrame);
         }
 
         private void OnCameraFrame (CameraFrame frame) {
@@ -48,7 +45,7 @@ namespace NatML.Examples {
 
         private void OnDisable () {
             // Stop listening for camera frames
-            cameraManager.OnFrame.RemoveListener(OnCameraFrame);
+            cameraManager.OnCameraFrame.RemoveListener(OnCameraFrame);
             // Dispose the predictor
             predictor?.Dispose();
             // Dispose the model

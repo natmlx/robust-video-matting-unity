@@ -1,11 +1,11 @@
 {
     "name": "ai.natml.vision.robust-video-matting",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Robust Video Matting",
     "description": "Robust Video Matting for high-fidelity human segmentation in Unity Engine.",
     "unity": "2021.2",
     "dependencies": {
-        "ai.natml.natml": "1.0.19"
+        "ai.natml.natml": "1.1.0"
     },
     "keywords": [
         "natml",
