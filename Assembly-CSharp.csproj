@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{537d74ce-cd8a-c80f-1d29-7ab2a0f216ca}</ProjectGuid>
+    <ProjectGuid>{d67fc616-50f1-f6d7-d7af-c66faf35c8b2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -284,13 +284,13 @@
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -671,121 +671,121 @@
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="NatML.ML">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.ML.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.ML.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Sharing.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Sharing.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.Sharing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Devices">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Devices.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.Devices.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="NatML.VideoKit">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.VideoKit.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.VideoKit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Recorders">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Recorders.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.Recorders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Recorders.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Recorders.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.Recorders.Editor.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Sharing">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Sharing.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.Sharing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Hub.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Hub.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.Hub.Editor.dll</HintPath>
     </Reference>
     <Reference Include="NatML.ML.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.ML.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.ML.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Hub">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Hub.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.Hub.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="NatML.VideoKit.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.VideoKit.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.VideoKit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Devices.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Devices.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.Devices.Editor.dll</HintPath>
     </Reference>
     <Reference Include="NatML.Vision.RobustVideoMatting">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/NatML.Vision.RobustVideoMatting.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/NatML.Vision.RobustVideoMatting.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>/Users/yusuf/Desktop/Robust-Video-Matting/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -19,15 +19,12 @@ namespace NatML.Examples {
         public RawImage rawImage;
         public AspectRatioFitter aspectFitter;
 
-        private MLEdgeModel model;
         private RobustVideoMattingPredictor predictor;
         private RenderTexture matteTexture;
 
         private async void Start () {
-            // Create the model
-            model = await MLEdgeModel.Create("@natsuite/robust-video-matting");
             // Create the RVM predictor
-            predictor = new RobustVideoMattingPredictor(model);
+            predictor = await RobustVideoMattingPredictor.Create();
             // Listen for camera frames
             cameraManager.OnCameraFrame.AddListener(OnCameraFrame);
         }
@@ -48,8 +45,6 @@ namespace NatML.Examples {
             cameraManager.OnCameraFrame.RemoveListener(OnCameraFrame);
             // Dispose the predictor
             predictor?.Dispose();
-            // Dispose the model
-            model?.Dispose();
         }
     }
 }

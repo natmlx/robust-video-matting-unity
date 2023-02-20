@@ -6,6 +6,7 @@
 namespace NatML.Vision {
 
     using System;
+    using System.Threading.Tasks;
     using NatML.Features;
     using NatML.Internal;
     using NatML.Types;
@@ -16,26 +17,6 @@ namespace NatML.Vision {
     public sealed partial class RobustVideoMattingPredictor : IMLPredictor<RobustVideoMattingPredictor.Matte> {
 
         #region --Client API--
-        /// <summary>
-        /// Create the Robust Video Matting predictor.
-        /// </summary>
-        /// <param name="model">Robust Video Matting ML model.</param>
-        public RobustVideoMattingPredictor (MLEdgeModel model) {
-            this.model = model;
-            var recurrentStateTypes = new [] {
-                new MLArrayType(new [] { 1, 16, 135, 240 }, typeof(float)),
-                new MLArrayType(new [] { 1, 20, 68, 120 }, typeof(float)),
-                new MLArrayType(new [] { 1, 40, 34, 60 }, typeof(float)),
-                new MLArrayType(new [] { 1, 64, 17, 30 }, typeof(float))
-            };
-            this.recurrentState = new MLEdgeFeature[recurrentStateTypes.Length];
-            for (var i = 0; i < recurrentStateTypes.Length; ++i) {
-                var type = recurrentStateTypes[i];
-                var feature = new MLArrayFeature<float>(new float[type.elementCount]);
-                recurrentState[i] = (feature as IMLEdgeFeature).Create(type);
-            }
-        }
-
         /// <summary>
         /// Compute a human alpha matte on an image.
         /// </summary>
@@ -73,6 +54,21 @@ namespace NatML.Vision {
         public void Dispose () {
             for (var i = 0; i < recurrentState.Length; ++i)
                 recurrentState[i].Dispose();
+            model.Dispose();
+        }
+
+        /// <summary>
+        /// Create the Robust Video Matting predictor.
+        /// </summary>
+        /// <param name="configuration">Model configuration.</param>
+        /// <param name="accessKey">NatML access key.</param>
+        public static async Task<RobustVideoMattingPredictor> Create (
+            MLEdgeModel.Configuration configuration = null,
+            string accessKey = null
+        ) {
+            var model = await MLEdgeModel.Create("@natsuite/robust-video-matting", configuration, accessKey);
+            var predictor = new RobustVideoMattingPredictor(model);
+            return predictor;
         }
         #endregion
 
@@ -80,6 +76,22 @@ namespace NatML.Vision {
         #region --Operations--
         private readonly MLEdgeModel model;
         private MLEdgeFeature[] recurrentState;
+
+        private RobustVideoMattingPredictor (MLEdgeModel model) {
+            this.model = model;
+            var recurrentStateTypes = new [] {
+                new MLArrayType(new [] { 1, 16, 135, 240 }, typeof(float)),
+                new MLArrayType(new [] { 1, 20, 68, 120 }, typeof(float)),
+                new MLArrayType(new [] { 1, 40, 34, 60 }, typeof(float)),
+                new MLArrayType(new [] { 1, 64, 17, 30 }, typeof(float))
+            };
+            this.recurrentState = new MLEdgeFeature[recurrentStateTypes.Length];
+            for (var i = 0; i < recurrentStateTypes.Length; ++i) {
+                var type = recurrentStateTypes[i];
+                var feature = new MLArrayFeature<float>(new float[type.elementCount]);
+                recurrentState[i] = (feature as IMLEdgeFeature).Create(type);
+            }
+        }
         #endregion
     }
 }

@@ -13,7 +13,7 @@ Add the following items to your Unity project's `Packages/manifest.json`:
     }
   ],
   "dependencies": {
-    "ai.natml.vision.robust-video-matting": "1.0.2"
+    "ai.natml.vision.robust-video-matting": "1.0.3"
   }
 }
 ```
@@ -21,10 +21,8 @@ Add the following items to your Unity project's `Packages/manifest.json`:
 ## Predicting the Matte
 First, create the Robust Video Matting predictor:
 ```csharp
-// Create the RVM model
-var model = await MLEdgeModel.Create("@natsuite/robust-video-matting");
-// Create the RVM predictor predictor
-var predictor = new RobustVideoMattingPredictor(model);
+// Create the RVM predictor
+var predictor = await RobustVideoMattingPredictor.Create();
 ```
 
 Predict the matte for an image:

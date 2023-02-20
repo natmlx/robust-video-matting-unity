@@ -1,8 +1,11 @@
+## 1.0.3
++ Upgraded to NatML 1.1.2.
+
 ## 1.0.2
-+ Upgrade to NatML 1.1.
++ Upgraded to NatML 1.1.
 
 ## 1.0.1
-+ Update README.
++ Updated README.
 
 ## 1.0.0
 + First release.

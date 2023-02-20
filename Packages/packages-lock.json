@@ -26,7 +26,7 @@
       "url": "https://registry.npmjs.com"
     },
     "ai.natml.natml": {
-      "version": "1.1.0",
+      "version": "1.1.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -61,7 +61,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "ai.natml.natml": "1.1.0"
+        "ai.natml.natml": "1.1.2"
       }
     },
     "com.unity.collab-proxy": {
