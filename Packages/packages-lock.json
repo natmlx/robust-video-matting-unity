@@ -2,35 +2,36 @@
   "dependencies": {
     "ai.natml.hub": {
       "version": "1.0.20",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://registry.npmjs.com"
     },
     "ai.natml.natcorder": {
-      "version": "1.9.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "ai.natml.hub": "1.0.15"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "ai.natml.natdevice": {
-      "version": "1.3.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "ai.natml.hub": "1.0.15"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "ai.natml.natml": {
-      "version": "1.1.2",
+      "version": "1.9.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "ai.natml.hub": "1.0.20"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "ai.natml.natdevice": {
+      "version": "1.3.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "ai.natml.hub": "1.0.20"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "ai.natml.natml": {
+      "version": "1.1.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "ai.natml.hub": "1.0.20",
+        "com.unity.nuget.newtonsoft-json": "3.1.0"
       },
       "url": "https://registry.npmjs.com"
     },
@@ -44,14 +45,13 @@
       "url": "https://registry.npmjs.com"
     },
     "ai.natml.videokit": {
-      "version": "0.0.9",
+      "version": "0.0.13",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "ai.natml.hub": "1.0.20",
-        "ai.natml.natml": "1.1.0",
-        "ai.natml.natcorder": "1.9.3",
-        "ai.natml.natdevice": "1.3.2",
+        "ai.natml.natml": "1.1.4",
+        "ai.natml.natcorder": "1.9.4",
+        "ai.natml.natdevice": "1.3.4",
         "ai.natml.natshare": "1.3.0"
       },
       "url": "https://registry.npmjs.com"
@@ -61,7 +61,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "ai.natml.natml": "1.1.2"
+        "ai.natml.natml": "1.1.6"
       }
     },
     "com.unity.collab-proxy": {
@@ -127,7 +127,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "3.0.2",
+      "version": "3.1.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {},

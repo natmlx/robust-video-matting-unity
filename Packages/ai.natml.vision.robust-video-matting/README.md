@@ -13,7 +13,7 @@ Add the following items to your Unity project's `Packages/manifest.json`:
     }
   ],
   "dependencies": {
-    "ai.natml.vision.robust-video-matting": "1.0.3"
+    "ai.natml.vision.robust-video-matting": "1.0.4"
   }
 }
 ```

@@ -18,6 +18,11 @@ namespace NatML.Vision {
 
         #region --Client API--
         /// <summary>
+        /// Predictor tag.
+        /// </summary>
+        public const string Tag = "@natsuite/robust-video-matting";
+
+        /// <summary>
         /// Compute a human alpha matte on an image.
         /// </summary>
         /// <param name="inputs">Input image.</param>
@@ -66,7 +71,7 @@ namespace NatML.Vision {
             MLEdgeModel.Configuration configuration = null,
             string accessKey = null
         ) {
-            var model = await MLEdgeModel.Create("@natsuite/robust-video-matting", configuration, accessKey);
+            var model = await MLEdgeModel.Create(Tag, configuration, accessKey);
             var predictor = new RobustVideoMattingPredictor(model);
             return predictor;
         }
