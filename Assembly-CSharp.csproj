@@ -290,6 +290,9 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="NJsonSchema">
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/PackageCache/ai.natml.videokit@0.0.14/Plugins/Managed/NJsonSchema.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
@@ -298,9 +301,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="NJsonSchema">
-        <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/PackageCache/ai.natml.videokit@0.0.14/Plugins/Managed/NJsonSchema.dll</HintPath>
     </Reference>
     <Reference Include="Namotion.Reflection">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/PackageCache/ai.natml.videokit@0.0.14/Plugins/Managed/Namotion.Reflection.dll</HintPath>
@@ -707,11 +707,11 @@
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="VideoKit.Editor">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/VideoKit.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -770,20 +770,20 @@
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="NatML.Runtime">
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/NatML.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="NatML.Runtime">
-        <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/NatML.Runtime.dll</HintPath>
+    <Reference Include="Function.Runtime">
+        <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Function.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Function.Runtime">
-        <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Function.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/yusuf/Desktop/robust-video-matting-unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>

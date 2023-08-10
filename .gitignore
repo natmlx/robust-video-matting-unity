@@ -10,9 +10,10 @@ Logs/
 .vs/
 
 # NatML
-Assets/NatML/
-Assets/NatML.meta
+# ProjectSettings/Function.asset
+# ProjectSettings/NatML.asset
 ProjectSettings/NatMLHub.asset
+# ProjectSettings/VideoKit.asset
 
 # Misc
 .DS_Store

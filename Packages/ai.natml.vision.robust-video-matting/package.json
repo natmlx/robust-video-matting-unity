@@ -3,7 +3,7 @@
     "version": "1.0.5",
     "displayName": "Robust Video Matting",
     "description": "Robust Video Matting for high-fidelity human segmentation in Unity Engine.",
-    "unity": "2021.2",
+    "unity": "2022.3",
     "dependencies": {
         "ai.natml.natml": "1.1.15"
     },

@@ -33,7 +33,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "ai.natml.natml": "1.1.6"
+        "ai.natml.natml": "1.1.15"
       }
     },
     "com.unity.ai.navigation": {
