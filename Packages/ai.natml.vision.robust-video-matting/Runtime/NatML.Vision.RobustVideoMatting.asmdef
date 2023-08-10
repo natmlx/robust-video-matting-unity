@@ -1,7 +1,7 @@
 {
     "name": "NatML.Vision.RobustVideoMatting",
     "references": [
-        "NatML.ML"
+        "NatML.Runtime"
     ],
     "includePlatforms": [
         "Android",

@@ -7,8 +7,8 @@ namespace NatML.Examples {
 
     using UnityEngine;
     using UnityEngine.UI;
-    using NatML.VideoKit;
     using NatML.Vision;
+    using VideoKit;
 
     public sealed class RobustVideoMattingSample : MonoBehaviour {
 
